@@ -2,7 +2,7 @@ import axios from "axios";
 
 import memoizedRefreshToken from "./refreshToken";
 
-axios.defaults.baseURL = "https://firesms-messaging-platform.herokuapp.com";
+axios.defaults.baseURL = "COMPANY_Base_URL_REMOVED";
 
 const usersession = localStorage.getItem("session");
 
