@@ -32,7 +32,7 @@ function Account() {
             fontStyle="normal"
             color="#000000"
             fontWeight="600"
-            fontSize="16px"
+            fontSize="16.0px"
             line-hieght="20px"
             fontFamily="sans-serif"
             mt="px"
