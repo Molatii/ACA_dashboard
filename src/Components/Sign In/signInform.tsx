@@ -45,8 +45,6 @@ function SignINForm() {
     e?.preventDefault();
     setLoading(true);
 
-    localStorage.setItem("access_token", "set access token");
-    localStorage.setItem("session", "set session");
     setLoading(false);
     reset();
     showToast();

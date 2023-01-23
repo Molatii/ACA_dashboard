@@ -1,18 +1,9 @@
 import { Box, Text } from "@chakra-ui/react";
-import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
 import Dashboard from "../../dashboard";
 import Cards from "../../Cards/cards";
 import AllChart from "../../Charts/allCharts";
 
 function Account() {
-  const navigate = useNavigate();
-  useEffect(() => {
-    if (localStorage.getItem("access_token") === null) {
-      navigate("/signIn");
-    }
-  }, [navigate]);
-
   return (
     <Box justifyContent="center" w="100%">
       <Dashboard>
